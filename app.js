@@ -6,7 +6,7 @@
 let player = '';
 let call = fetch("https://jsonplaceholder.typicode.com/users")
     .then(response => {
-        return response.json(); // Parse the response body as JSON
+        return response.json(); 
     }).then(data => {
         console.log(data)
         return data
